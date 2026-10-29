@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | Wayfinder</title>
+  <meta name="description" content="About Wayfinder Travel and guidance for our team members.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html">Wayfinder</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <form class="search" id="search-form" role="search">
+        <input type="text" id="search-input" placeholder="Search beach, temple, country" aria-label="Search destinations" autocomplete="off">
+        <button type="submit" class="btn btn-search" id="btn-search">Search</button>
+        <button type="button" class="btn btn-clear" id="btn-clear">Clear</button>
+      </form>
+    </div>
+  </header>
+
+  <main class="page">
+    <h1>About Us</h1>
+    <p class="lead">Wayfinder is a small travel company that helps people choose where to go next. We turn big travel questions into short, honest recommendations.</p>
+
+    <section aria-labelledby="who">
+      <h2 id="who">Who we are</h2>
+      <p>Wayfinder was founded in 2020 by a group of friends who were tired of endless lists of "top ten" destinations. We believe a good recommendation is specific, current and written by someone who has actually been there.</p>
+      <p>Today our team of travel writers, photographers and developers maintains recommendations for beaches, temples and cities on every continent.</p>
+    </section>
+
+    <section aria-labelledby="mission">
+      <h2 id="mission">Our mission</h2>
+      <div class="panel">
+        <p style="margin:0">Help every traveller find a place that fits them, and make planning the trip as enjoyable as taking it.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="team">
+      <h2 id="team">Our team</h2>
+      <div class="team">
+        <div class="member"><strong>Aigerim S.</strong><span>Founder and editor in chief</span></div>
+        <div class="member"><strong>Daniyar K.</strong><span>Destination researcher</span></div>
+        <div class="member"><strong>Madina T.</strong><span>Photographer</span></div>
+        <div class="member"><strong>Olzhas</strong><span>Web developer</span></div>
+      </div>
+    </section>
+
+    <section aria-labelledby="guide">
+      <h2 id="guide">Guidance for team members</h2>
+      <div class="panel">
+        <ul>
+          <li><strong>Be accurate.</strong> Check names, locations and facts against at least two sources before publishing a recommendation.</li>
+          <li><strong>Be specific.</strong> Say what makes a place worth visiting in one or two clear sentences.</li>
+          <li><strong>Use real images.</strong> Every recommendation needs at least one clear photo with descriptive alt text.</li>
+          <li><strong>Respect local culture.</strong> Describe temples and sacred sites with care, including dress codes and photography rules.</li>
+          <li><strong>Reply fast.</strong> Answer messages from the Contact Us form within two working days.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Wayfinder Travel. Plan less, see more.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

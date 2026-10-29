@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" role="img">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4aa9e0"/><stop offset="1" stop-color="#e9f6ff"/></linearGradient><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a86b8"/><stop offset="1" stop-color="#124f78"/></linearGradient></defs>
+<rect width="800" height="560" fill="url(#sky)"/>
+<circle cx="640" cy="120" r="48" fill="#fff6c9"/>
+<rect y="372" width="800" height="188" fill="url(#sea)"/>
+<path d="M0 360 Q 190 190 380 360" fill="none" stroke="#3a4a58" stroke-width="10"/><path d="M0 372 L 380 372" stroke="#3a4a58" stroke-width="12"/><path d="M20 326 L20 372" stroke="#3a4a58" stroke-width="3"/><path d="M50 282 L50 372" stroke="#3a4a58" stroke-width="3"/><path d="M80 247 L80 372" stroke="#3a4a58" stroke-width="3"/><path d="M110 220 L110 372" stroke="#3a4a58" stroke-width="3"/><path d="M140 202 L140 372" stroke="#3a4a58" stroke-width="3"/><path d="M170 192 L170 372" stroke="#3a4a58" stroke-width="3"/><path d="M200 190 L200 372" stroke="#3a4a58" stroke-width="3"/><path d="M230 198 L230 372" stroke="#3a4a58" stroke-width="3"/><path d="M260 213 L260 372" stroke="#3a4a58" stroke-width="3"/><path d="M290 237 L290 372" stroke="#3a4a58" stroke-width="3"/><path d="M320 270 L320 372" stroke="#3a4a58" stroke-width="3"/><path d="M350 311 L350 372" stroke="#3a4a58" stroke-width="3"/>
+<rect x="270" y="380" width="340" height="30" fill="#e3d9c3"/>
+<path d="M300 380 Q 309.0 220 390 292.0 Q 381.0 348.0 390 380 Z" fill="#fdfaf3" stroke="#d6cdb8" stroke-width="2"/><path d="M370 380 Q 379.5 180 465 270.0 Q 455.5 340.0 465 380 Z" fill="#fdfaf3" stroke="#d6cdb8" stroke-width="2"/><path d="M445 380 Q 453.0 230 525 297.5 Q 517.0 350.0 525 380 Z" fill="#fdfaf3" stroke="#d6cdb8" stroke-width="2"/><path d="M500 380 Q 506.0 270 560 319.5 Q 554.0 358.0 560 380 Z" fill="#fdfaf3" stroke="#d6cdb8" stroke-width="2"/>
+<path d="M0 470 q 50 -12 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="3"/>
+<path d="M0 510 q 50 -12 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0" fill="none" stroke="#fff" stroke-opacity=".2" stroke-width="3"/>
+</svg>

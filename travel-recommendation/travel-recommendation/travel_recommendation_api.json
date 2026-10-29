@@ -1,0 +1,80 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "images/sydney.svg",
+          "description": "A vibrant harbour city known for its Opera House, its iconic bridge and its golden urban beaches."
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "images/melbourne.svg",
+          "description": "A cultural capital with laneway cafes, street art, world-class galleries and a lively sports scene."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "images/tokyo.svg",
+          "description": "A dazzling metropolis where neon-lit towers, quiet shrines and some of the world's best food sit side by side."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "images/kyoto.svg",
+          "description": "The former imperial capital, famous for its historic temples, tea houses and thousands of red torii gates."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "images/rio.svg",
+          "description": "Famous for its beaches, its mountain-top statue and a carnival that fills the whole city with music."
+        },
+        {
+          "name": "Sao Paulo, Brazil",
+          "imageUrl": "images/sao-paulo.svg",
+          "description": "A sprawling skyline city with outstanding restaurants, museums and a nightlife that never really stops."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "images/angkor-wat.svg",
+      "description": "A massive 12th-century temple complex and the largest religious monument in the world, best seen at sunrise."
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal, India",
+      "imageUrl": "images/taj-mahal.svg",
+      "description": "A white marble mausoleum in Agra, built by Emperor Shah Jahan and admired for its perfect symmetry."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "images/bora-bora.svg",
+      "description": "Turquoise lagoons, overwater bungalows and calm, clear water that is ideal for snorkelling."
+    },
+    {
+      "id": 2,
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "images/copacabana.svg",
+      "description": "Rio's famous crescent of sand with a wave-patterned promenade, beach volleyball and sunset views."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wayfinder | Travel Recommendations</title>
+  <meta name="description" content="Search for beaches, temples and countries and get travel recommendations with photos.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="bar">
+      <a class="brand" href="index.html">Wayfinder</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <form class="search" id="search-form" role="search">
+        <input type="text" id="search-input" placeholder="Search beach, temple, country" aria-label="Search destinations" autocomplete="off">
+        <button type="submit" class="btn btn-search" id="btn-search">Search</button>
+        <button type="button" class="btn btn-clear" id="btn-clear">Clear</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <h1>Find the place your next trip is about.</h1>
+          <p>Welcome to Wayfinder. Tell us what you are in the mood for and we will suggest destinations worth the journey: calm beaches, ancient temples and cities across the globe. Type a keyword in the search bar, or pick a quick search below.</p>
+          <div class="chips" aria-label="Quick searches">
+            <button type="button" class="chip" data-search="beach">Beaches</button>
+            <button type="button" class="chip" data-search="temple">Temples</button>
+            <button type="button" class="chip" data-search="country">Countries</button>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <img src="images/bora-bora.svg" alt="" width="800" height="560">
+          <img src="images/angkor-wat.svg" alt="" width="800" height="560">
+          <img src="images/kyoto.svg" alt="" width="800" height="560">
+          <img src="images/sydney.svg" alt="" width="800" height="560">
+        </div>
+      </div>
+    </section>
+
+    <section class="results-wrap" id="results" hidden aria-live="polite">
+      <div class="results-head">
+        <h2 id="results-title">Recommendations</h2>
+        <p id="results-note"></p>
+      </div>
+      <div class="cards" id="results-list"></div>
+    </section>
+
+    <section class="intro" aria-label="About Wayfinder">
+      <div>
+        <h2>Search by what you love</h2>
+        <p>Search for "beach", "temple" or "country" to see handpicked places with photos and a short description of why each one is worth a visit.</p>
+      </div>
+      <div>
+        <h2>Know before you go</h2>
+        <p>Every recommendation comes with a clear summary, so you can compare destinations quickly and decide where to look next.</p>
+      </div>
+      <div>
+        <h2>Made by travellers</h2>
+        <p>Our team travels, tests and updates the list regularly. Read more on the <a href="about.html">About Us</a> page or write to us on the <a href="contact.html">Contact Us</a> page.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2026 Wayfinder Travel. Plan less, see more.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

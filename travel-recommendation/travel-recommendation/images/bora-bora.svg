@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" role="img">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fd0e6"/><stop offset="1" stop-color="#effaf6"/></linearGradient><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#25c0d0"/><stop offset="1" stop-color="#0c86a3"/></linearGradient><linearGradient id="sand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4e3b5"/><stop offset="1" stop-color="#e6cf98"/></linearGradient></defs>
+<rect width="800" height="560" fill="url(#sky)"/>
+<circle cx="150" cy="120" r="56" fill="#fff6c2" opacity=".95"/>
+<path d="M470 330 L 540 190 L 575 250 L 610 175 L 660 330 Z" fill="#2c6b4a"/><path d="M470 330 L 540 190 L 560 330Z" fill="#1f5238" opacity=".6"/>
+<rect y="330" width="800" height="230" fill="url(#sea)"/>
+<path d="M0 390 q 50 -12 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+<path d="M0 425 q 50 -12 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0 t 100 0" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="3"/>
+<path d="M0 470 Q 200 440 420 458 T 800 450 L 800 560 L 0 560 Z" fill="url(#sand)"/><g><rect x="90" y="372" width="64" height="5" fill="#7a5230"/><polygon points="94,372 122,346 150,372" fill="#b9854f"/><rect x="100" y="372" width="3" height="22" fill="#7a5230"/><rect x="140" y="372" width="3" height="22" fill="#7a5230"/></g><g><rect x="160" y="372" width="64" height="5" fill="#7a5230"/><polygon points="164,372 192,346 220,372" fill="#b9854f"/><rect x="170" y="372" width="3" height="22" fill="#7a5230"/><rect x="210" y="372" width="3" height="22" fill="#7a5230"/></g><g><rect x="230" y="372" width="64" height="5" fill="#7a5230"/><polygon points="234,372 262,346 290,372" fill="#b9854f"/><rect x="240" y="372" width="3" height="22" fill="#7a5230"/><rect x="280" y="372" width="3" height="22" fill="#7a5230"/></g><g transform="translate(690,520) scale(1.05)" fill="#1d4d2b">
+<path d="M0 0 C 10 -80 6 -150 28 -210 L 40 -206 C 24 -150 28 -80 18 0 Z"/>
+<path d="M32 -208 C 0 -250 -50 -240 -90 -200 C -50 -220 -10 -218 32 -194 Z"/>
+<path d="M32 -208 C 70 -258 120 -250 150 -205 C 110 -228 70 -222 36 -194 Z"/>
+<path d="M32 -208 C 20 -265 -10 -280 -60 -276 C -20 -262 10 -245 30 -196 Z"/>
+<path d="M34 -208 C 60 -270 100 -285 150 -270 C 105 -262 70 -240 38 -196 Z"/>
+</g><g transform="translate(610,500) scale(0.7)" fill="#256b3a">
+<path d="M0 0 C 10 -80 6 -150 28 -210 L 40 -206 C 24 -150 28 -80 18 0 Z"/>
+<path d="M32 -208 C 0 -250 -50 -240 -90 -200 C -50 -220 -10 -218 32 -194 Z"/>
+<path d="M32 -208 C 70 -258 120 -250 150 -205 C 110 -228 70 -222 36 -194 Z"/>
+<path d="M32 -208 C 20 -265 -10 -280 -60 -276 C -20 -262 10 -245 30 -196 Z"/>
+<path d="M34 -208 C 60 -270 100 -285 150 -270 C 105 -262 70 -240 38 -196 Z"/>
+</g>
+</svg>

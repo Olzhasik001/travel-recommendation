@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" role="img">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8873a"/><stop offset="0.6" stop-color="#f6b85c"/><stop offset="1" stop-color="#fde7a8"/></linearGradient><linearGradient id="pool" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d89a52"/><stop offset="1" stop-color="#8f5a2e"/></linearGradient></defs>
+<rect width="800" height="560" fill="url(#sky)"/>
+<circle cx="400" cy="300" r="120" fill="#ffe9b0" opacity=".75"/>
+<g  opacity="1" fill="#3a2418">
+<rect x="130" y="400" width="540" height="30"/>
+<rect x="170" y="370" width="460" height="30"/>
+<path d="M360 370 L360 300 L370 300 L370 270 L380 270 L380 240 L392 240 L392 205 L400 150 L408 205 L420 240 L420 270 L430 270 L430 300 L440 300 L440 370 Z"/>
+<path d="M230 370 L230 320 L240 320 L240 300 L250 300 L250 275 L260 240 L270 275 L280 300 L290 300 L290 320 L300 320 L300 370Z"/>
+<path d="M500 370 L500 320 L510 320 L510 300 L520 300 L520 275 L530 240 L540 275 L550 300 L560 300 L560 320 L570 320 L570 370Z"/>
+<rect x="305" y="340" width="50" height="30"/><rect x="445" y="340" width="50" height="30"/>
+</g>
+<rect y="430" width="800" height="130" fill="url(#pool)"/>
+<g transform="translate(0,860) scale(1,-1)" opacity="0.35" fill="#3a2418">
+<rect x="130" y="400" width="540" height="30"/>
+<rect x="170" y="370" width="460" height="30"/>
+<path d="M360 370 L360 300 L370 300 L370 270 L380 270 L380 240 L392 240 L392 205 L400 150 L408 205 L420 240 L420 270 L430 270 L430 300 L440 300 L440 370 Z"/>
+<path d="M230 370 L230 320 L240 320 L240 300 L250 300 L250 275 L260 240 L270 275 L280 300 L290 300 L290 320 L300 320 L300 370Z"/>
+<path d="M500 370 L500 320 L510 320 L510 300 L520 300 L520 275 L530 240 L540 275 L550 300 L560 300 L560 320 L570 320 L570 370Z"/>
+<rect x="305" y="340" width="50" height="30"/><rect x="445" y="340" width="50" height="30"/>
+</g>
+<path d="M0 520 L800 520" stroke="#fff" stroke-opacity=".15" stroke-width="2"/>
+<path d="M0 410 Q 100 360 200 410 T 400 410" fill="none"/>
+<g fill="#1f3a22"><path d="M0 430 L0 330 Q 60 300 90 360 Q 110 400 130 430Z"/><path d="M800 430 L800 340 Q 740 310 710 370 Q 690 405 670 430Z"/></g>
+</svg>
